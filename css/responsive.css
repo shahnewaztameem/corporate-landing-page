@@ -1,0 +1,192 @@
+.slicknav_menu {
+    display: none;
+}
+@media screen and (max-width: 992px){
+    .slider {
+        margin-top: 112px;
+    }
+    header {
+        margin-top: -112px;
+        background-color:#34495e;
+    }
+    #menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: inline-block;
+        position: fixed;
+        background: rgba(0,0,0,0);
+        z-index: 1000;
+        right: 0px;
+        margin-top: -112px;
+    }
+    .slicknav_btn {
+        background-color: #e74c3c;
+        margin: 35px 30px 0 0;
+    }
+    .slicknav_nav {
+        background: #34495e;
+        width: 200px;
+    }
+    .slicknav_nav li{
+        width: 200px;
+        margin: 0;
+        padding: 0;
+        height: 3em;
+        line-height: 3em;
+        width: 200px;
+        border-bottom: 1px solid #2e4155;
+        border-top: 1px solid #3d5267;
+        text-align: center;
+    }
+    .slicknav_nav li a {
+        margin: 0;
+        padding: 0;
+    }
+    .slicknav_nav li a:hover{
+        color: #e74c3c;
+        background-color: rgba(0,0,0,0);
+    }
+    .slider, .slider ul.slider-carousel, .slider ul.slider-carousel li {
+    height: 450px;
+    }
+    .slider ul.slider-carousel li h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    }
+/*    portfolio responsive styles*/
+    .portfolio {
+        background: none;
+        background-color: #eca535;
+    }
+    .portfolio-carousel li {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .portfolio-carousel h3 {
+        font-size: 14px;
+    }
+    .portfolio .inner-content {
+        width: 200px;
+        height: 180px;
+    }
+    
+    
+    .team-carousel h3 {
+        font-size: 14px;
+    }
+    .team .inner-content {
+        width: 200px;
+        height: 180px;
+    }
+    .team-carousel li {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .team-carousel p.description {
+        display: none;
+    }
+/*    testimonials*/
+    .testimonials {
+        background: none;
+        background-color: #0d1722;
+    }
+    .blog {
+        text-align: center;
+    }
+    .blog img {
+        margin: 0 auto;
+    }
+    
+/*    contact form*/
+    .contact {
+        background: none;
+        background-color: #36767a;
+    }
+    form.contact-form {
+        width: 60%;
+    }
+/*    footer responsive style*/
+    footer {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 800px) {
+    .portfolio-carousel h3 {
+        font-size: 12px;
+    }
+    .portfolio .inner-content {
+        width: 180px;
+        height: 150px;
+    }
+    
+    .portfolio li p {
+        font-size: 12px;
+        
+    }
+/*    team responsive style*/
+    .team-carousel h3 {
+        font-size: 12px;
+    }
+    .team .inner-content {
+        width: 180px;
+        height: 150px;
+    }
+    .team li p {
+        font-size: 12px;
+        
+    }
+/*    testimonial responsive*/
+    .testimonial-carousel li {
+    margin: 0 100px;
+    
+    }
+}
+@media screen and (max-width: 550px) {
+    .slider, .slider ul.slider-carousel, .slider ul.slider-carousel li {
+        height: 380px;
+    }
+    .slider ul.slider-carousel li h1 {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    form.contact-form {
+        width: 80%;
+    }
+     h1
+	{
+		font-size: 24px;
+	}
+	.slider ul li a
+	{
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.slider ul.slider-carousel li h1
+	{
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 420px) {
+    h1
+	{
+		font-size: 24px;
+	}
+	.slider ul li a
+	{
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.slider ul.slider-carousel li h1
+	{
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+}
